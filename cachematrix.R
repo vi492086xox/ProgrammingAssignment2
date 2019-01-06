@@ -64,7 +64,7 @@ cacheSolve <- function(x, ...) {
 
 	cached_inverse <- x$get_inverse()
 	
-	## if the inverse isn't already stored, calculate the inverse and stores
+	## if the inverse isn't already stored, calculate the inverse and store
 	## it in the special matrix object
 	if(is.null(cached_inverse)) {
 		print("Calculating Inverse")
